@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+.body{
+    height: 100%;
+    width: auto;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title, .subtext, .txt-card, .title-card{
+    color: white;
+}
+
+.title{
+    margin-top: 47px;
+    font-size: 30px;
+}
+
+h2.subtext{
+    font-size: 24px;
+    margin-bottom: 127px;
+    text-align: center;
+}
+
+.content{
+    display: grid;
+    height: auto;
+    width: auto;
+    justify-items: center;
+}
+
+.v-results{    
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 480px;
+    width: 417px;
+}
+
+.card-content{
+    display: grid;
+    justify-items: center;
+    margin: 0px 0px 82px 0px;
+    height: 480px;
+    width: 417px;
+}
+
+.card{
+    display: grid;
+    border: 3px solid white;
+    grid-template-rows: 255px 45px auto 30px;
+    justify-items: center;
+    height: 480px;
+    width: 417px;
+}
+
+.img-card{
+    height: 255px;
+    width: 410px;
+}
+
+.title-card{
+    font-size: 30px;
+}
+
+.txt-card{
+    text-align: center;
+    font-size: 18px;
+    height: 130px;
+}
+
+.v-link{
+    font-size: 18px;
+    justify-self: end;
+    margin-right: 10px;
+    color: white;
+}
+
+@media (min-width: 960px){
+    
+    
+    .v-results{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 480px;
+        width: 417px;
+    }
+}
